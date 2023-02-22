@@ -1,0 +1,144 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#181437;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form{
+    background-color: #A81E5B;
+    padding: 10px;
+    border-radius: 5px;
+}
+.username{
+    padding: 10px;
+}
+span{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    height: 25px;
+    width: 300px;
+    margin-top:10px;
+}
+.heading{
+    display: flex;align-items: center;justify-content: center;
+}
+
+button{
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #A81E5B;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input{
+    border-radius: 5px;
+}
+
+.home{
+    background-color: #5147ac;
+    color:white;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 70px;
+    background-color:rgb(59, 59, 59);
+}
+.left,.right{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.logo{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.home2{
+    height: 88vh;
+    width: 98vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-y: scroll;
+    background-size: cover;
+}
+.search{
+    width: 200px;
+    border:1px solid rgb(210, 123, 210);
+    height: 30px;
+    padding-left: 10px;
+
+}
+.right{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    color: rgb(243, 239, 248);
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier;
+}
+.products{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product{
+    text-align: center;
+    background-color: rgba(126, 133, 132, 0.596);
+    width:600px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: rgb(7, 6, 7);
+}
+.bookimg{
+    padding:10px 20px 0px 20px;
+    height: 250px;
+    width: 500px;
+}
+
+p{
+    margin:2px;padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.text{
+    height: 100px;
+    width: 250px;
+    margin-top: 10px;
+}
+.link{
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A81E5B;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
